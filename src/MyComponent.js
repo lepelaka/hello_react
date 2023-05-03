@@ -10,6 +10,8 @@ class MyComponent extends Component {
         <h2>안녕하세요, 제 이름은 {name} 입니다.</h2>
         <h3>children의 값은 {children}입니다.</h3>
         <h3>children의 값은 {children}입니다.</h3>
+        <h3>children의 값은 {children}입니다.</h3>
+        <h3>children의 값은 {children}입니다.</h3>
       </div>
     );
   }
