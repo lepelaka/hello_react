@@ -12,6 +12,8 @@ class MyComponent extends Component {
         <h3>children의 값은 {children}입니다.</h3>
         <h3>children의 값은 {children}입니다.</h3>
         <h3>children의 값은 {children}입니다.</h3>
+        <h3>children의 값은 {children}입니다.</h3>
+        <h3>children의 값은 {children}입니다.</h3>
       </div>
     );
   }
