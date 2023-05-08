@@ -1,7 +1,19 @@
-import Say from "./Say";
+import Scrollbox from "./Scrollbox.js";
 
-const App = () => {
-  return <Say />;
-};
+import React, { Component } from "react";
+
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Scrollbox ref={(ref) => (this.scrollbox = ref)} />
+        <button onClick={() => this.scrollbox.scrollTo()}>맨 위로</button>
+        <button onClick={() => this.scrollbox.scrollToBottom()}>
+          맨 밑으로
+        </button>
+      </div>
+    );
+  }
+}
 
 export default App;
